@@ -1,5 +1,6 @@
 """"""""基本設定""""""""
 colorscheme desertEx
+au Filetype python setl et ts=4 sw=4
 let $4="~/.vimrc"
 let glib_enable_deprecated = 1
 let g:slimv_swank_cmd = '! xterm -e sbcl --load ~/.vim/slime/start-swank.lisp &'
@@ -22,8 +23,6 @@ set foldmethod=syntax
 set foldlevel=100
 set number
 set shortmess=a
-set backup
-set backupdir=./.backup,~/.backup
 "let g:SuperTabDefaultCompletionType="<C-x><C-p>"
 let g:rubycomplete_buffer_loading=1
 let g:rubycomplete_classes_in_global=1
